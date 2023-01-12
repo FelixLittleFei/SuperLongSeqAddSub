@@ -34,29 +34,29 @@ inputFile 2
 inputFile 10 2
 
 ## Testing
-1. The contents of the input file base 10 could be:
+#### The contents of the input file base 10 could be:
 98
 -10000001
 
-The output in radix 10 must be:
+#### The output in radix 10 must be:
 -9999903
 
 
-2. The contents of the input file base 36 could be:
+#### The contents of the input file base 36 could be:
   
 -czvjzkldfjg000z0z0z0eopogs54867g0fgert6000045jhgrt07575fgbir0ew0465233kcw
 
 15w34fdgvntoopl4k40000088846g468797908z0z000zzz0009hazz
 
-The result must be:
+#### The result:
   
-Base 36:
+If Base 36:
 -CZVJZKLDFJG000Z0Z0XUILL93B9GEHIQFAWART5ZZRRW1D1CLKSXXY56HAJR0DW05651TM9CX
 
-Base 10:
+If Base 10:
 -147098694550647835620679717570878378783899165875780434014120749235398411979380429160987449599626877947229738863073
 
-Base 16:
+If Base 16:
 -F4AA088C573511C527C857A2C294D961E23AC06CD4DFDB59E5D38122C274B09BA46A09B982E652E02442A9AC0789E1
 
 ## Tutorial
