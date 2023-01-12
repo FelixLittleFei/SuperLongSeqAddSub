@@ -2,7 +2,7 @@
 
 This program is implemented in C++. Your input parameters must contains an inputfile and could contain a 2nd parameter to denote the input base and a 3rd parameter to denote the output base. The length of the sequence could be much bigger than long long long int. You cannot use built-in types to store these 2 sequences.
 
-### **This 300 lines of mini program includes** 
+### **This <300 lines of mini program includes** 
 
 - Multiple input validity checks
 - Character conversions
