@@ -18,7 +18,7 @@ The base will be 2-36, which will be represented in your inputfile as 2-10 and A
 - Sign handling.
 
 ### **Usage (Program input parameters)**
-"  --testFile <filename>    testfile \n"
+"  --inputFile <filename>    inputfile \n"
   
 "  --inputBase <number>     input decimal btw 2-36 (optional) \n"
   
