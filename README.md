@@ -19,23 +19,29 @@ The base will be 2-36, which will be represented in your inputfile as 2-10 and A
 
 ### **Usage (Program input parameters)**
 "  --testFile <filename>    testfile \n"
+  
 "  --inputBase <number>     input decimal btw 2-36 (optional) \n"
+  
 "  --outputBase <number>       output decimal btw 2-36 (optional) \n";
 
 ### **Example (You may need your program name at the beginning as well)**
 inputFile
+  
 inputFile 10 16
+  
 inputFile 2
+  
 inputFile 10 2
 
 ## Testing
 The contents of the input file base 36 could be:
-The first line:
+  
 -czvjzkldfjg000z0z0z0eopogs54867g0fgert6000045jhgrt07575fgbir0ew0465233kcw
-The second line:
+
 15w34fdgvntoopl4k40000088846g468797908z0z000zzz0009hazz
 
 The output result should be:
+  
 Base 36:
 -CZVJZKLDFJG000Z0Z0XUILL93B9GEHIQFAWART5ZZRRW1D1CLKSXXY56HAJR0DW05651TM9CX
 
