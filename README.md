@@ -30,7 +30,9 @@ inputFile 10 2
 
 ## Testing
 The contents of the input file base 36 could be:
+The first line:
 -czvjzkldfjg000z0z0z0eopogs54867g0fgert6000045jhgrt07575fgbir0ew0465233kcw
+The second line:
 15w34fdgvntoopl4k40000088846g468797908z0z000zzz0009hazz
 
 The output result should be:
