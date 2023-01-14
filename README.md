@@ -36,6 +36,7 @@ inputFile 10 2
 ## Testing
 #### The contents of the input file base 10 could be:
 98
+
 -10000001
 
 #### The output in radix 10 must be:
