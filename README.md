@@ -34,7 +34,7 @@ inputFile 2
 inputFile 10 2
 
 ## Testing
-#### The contents of the input file base 10 could be:
+#### (1) The contents of the input file base 10 could be:
 98
 
 -10000001
@@ -43,7 +43,7 @@ inputFile 10 2
 -9999903
 
 
-#### The contents of the input file base 36 could be:
+#### (2) The contents of the input file base 36 could be:
   
 -czvjzkldfjg000z0z0z0eopogs54867g0fgert6000045jhgrt07575fgbir0ew0465233kcw
 
