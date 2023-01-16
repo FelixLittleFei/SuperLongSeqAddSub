@@ -60,6 +60,6 @@ If Base 10:
 If Base 16:
 -F4AA088C573511C527C857A2C294D961E23AC06CD4DFDB59E5D38122C274B09BA46A09B982E652E02442A9AC0789E1
 
-## Tutorial
+## Math Tutorial for base conversion
 An interesting reference for base conversion algorithm: https://www.cs.colostate.edu/~cs270/.Spring12/Notes/NumberSystems
 Hope it helps!
