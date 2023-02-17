@@ -27,7 +27,7 @@ OF SUCH DAMAGE.
 #include <vector>
 #include <deque>
 
-using namespace std;
+using namespace std; // For convenience. In real projects, this is not recommended.
 
 bool isNum(const string &s);
 bool isBaseValid(char *arg);
