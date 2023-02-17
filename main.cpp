@@ -50,25 +50,22 @@ int main(int argc, char **argv)
         exit(-1);
     }
     
-    string testFilePath;
+    string testFilePath = argv[1];
     int inputBase, outputBase;
     vector<string> sign, numData;
     
     int flag = 0; // Denote 2nd or 3rd input is valid or not.
     if (argc == 4) {
-        testFilePath = argv[1];
         if (isBaseValid(argv[2]) && isBaseValid(argv[3])) {
             inputBase = stoi(string(argv[2]));
             outputBase = stoi(string(argv[3]));
         } else { flag = 1; } // flag = 1: invalid
     } else if (argc == 3) {
-        testFilePath = argv[1];
         if (isBaseValid(argv[2])) {
             inputBase = stoi(string(argv[2]));
             outputBase = inputBase;
         } else { flag = 1; } // flag = 1: invalid
     } else if (argc == 2) {
-        testFilePath = argv[1];
         inputBase = 10;
         outputBase = 10;
     } else { // Only 2, 3 or 4 inputs are acceptable.
@@ -85,7 +82,7 @@ int main(int argc, char **argv)
     
     // Read the data from the file.
 	ifstream fin;
-    fin.open("inputfile.txt", ios::in);
+    fin.open(testFilePath, ios::in);
     
     if (!fin.is_open()) {
 		cout << "cannot find the file" << endl;
