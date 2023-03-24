@@ -1,4 +1,4 @@
-# Mini Project 1 (Jan. 2023): Two super long Integer Sequences Addition Subtraction (超长整数加减法）
+# Mini Project 1 (Jan. 2023): Two super long Integer Sequences Addition Subtraction
 
 This program is implemented in C++. Your input parameters must contains an inputfile and could contain a 2nd parameter to denote the input base and a 3rd parameter to denote the output base. The length of the sequence could be much bigger than long long long int. You cannot use built-in types to store these 2 sequences.
 
